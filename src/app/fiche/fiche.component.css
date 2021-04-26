@@ -1,0 +1,11 @@
+.addButton{
+    float: right;
+    margin-top: -5%;
+    margin-right: 2%;
+}
+mat-grid-tile {
+    background: #7d89cc3d;
+  }
+  mat-grid-list {
+      margin-top: 7%;
+  }
