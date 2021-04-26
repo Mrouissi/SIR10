@@ -11,9 +11,8 @@ export class FicheComponent implements OnInit {
  public fiche = {
   'date_butoir': null,
   'heures_estime': 0,
-  'id': 1,
   'lieu': null,
-  'name': "Diag. de classe",
+  'name': "FicheTest",
   'note': null,
   'tags': [],
   'url': null,

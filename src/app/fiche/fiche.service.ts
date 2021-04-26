@@ -10,7 +10,7 @@ export class FicheService {
   headers = new HttpHeaders({
     'Content-Type': 'application/json',
     'Accept': 'application/json',
-    'Access-Control-Allow-Origin': 'http://localhost:8081',
+    'Access-Control-Allow-Origin': 'http://localhost:8080',
     'Access-Control-Allow-Headers': ' Content-Type, Accept',
     'Access-Control-Expose-Headers': 'Access-Control-Allow-Origin'
 
