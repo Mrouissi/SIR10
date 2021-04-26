@@ -16,7 +16,6 @@ export class FicheService {
 
    })
    
-baseURL = "http://localhost:8081/fiche"
   constructor(private httpClient : HttpClient) {}
  
   getFiches(){
@@ -26,7 +25,7 @@ baseURL = "http://localhost:8081/fiche"
 
  
   addFiche( data : string){
-    return this.httpClient.post(this.baseURL + '/create/', data ,  { 'headers': this.headers })
+    return this.httpClient.post('/api/fiche/create', data ,  { 'headers': this.headers })
 
   }
 

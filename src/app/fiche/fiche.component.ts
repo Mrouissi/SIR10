@@ -48,8 +48,8 @@ export class FicheComponent implements OnInit {
       
     })
   }
-getAll(){
-  this.service.getFiches().subscribe(data=>{
+createFiche(){
+  this.service.addFiche(JSON.stringify(this.fiche)).subscribe(data=>{
     console.log(data);
   })
 }
