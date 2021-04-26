@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -19,7 +20,7 @@ baseURL = "http://localhost:8081/fiche"
   constructor(private httpClient : HttpClient) {}
  
   getFiches(){
-    return this.httpClient.get(this.baseURL + '/' , { 'headers': this.headers })
+    return this.httpClient.get('/api/fiche/' , {headers: this.headers})
  
   }
 

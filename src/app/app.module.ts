@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { FicheComponent } from './fiche/fiche.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FicheModule } from './fiche/fiche.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FicheModule } from './fiche/fiche.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FicheModule
+    FicheModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
